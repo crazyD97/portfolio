@@ -1,0 +1,22 @@
+.floatNav_container{
+
+  width: 400px;
+  box-shadow: 0px 1px 1px #ccc;
+  .floatNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+      a{
+        color: #444;
+        display: block;
+        padding: 10px;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+          color: green;
+          border-bottom: 1px solid green;
+        }
+      }
+    }
+  }
+}
